@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "video-to-mp3",
-    "slug": "video-to-mp3",
+    "slug": "android",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
