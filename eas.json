@@ -1,23 +1,27 @@
 {
   "cli": {
-    "version": ">= 16.0.0"
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
   },
   "build": {
     "development": {
       "distribution": "internal",
       "android": {
-        "gradleCommand": ":app:assembleDebug"
+        "gradleCommand": ":app:assembleDebug",
+        "credentialsSource": "remote"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "gradleCommand": ":app:assembleRelease"
+        "gradleCommand": ":app:assembleRelease",
+        "credentialsSource": "remote"
       }
     },
     "production": {
       "android": {
-        "gradleCommand": ":app:bundleRelease"
+        "gradleCommand": ":app:bundleRelease",
+        "credentialsSource": "remote"
       }
     }
   },
